@@ -7,11 +7,11 @@
 - '2023.11.21 - 2023.'
 
 ### 팀원
-- 팀장 안예영 - input 만들기
-- 팀원 백경운 - model(puzzle board) 만들기
-- 팀원 백혜경 - model(puzzle piece) 만들기
-- 팀원 이가은 - controller 만들기
-- 팀원 최연우 - output 만들기
+- 팀장 안예영 - input 만들기, 피피티 작성
+- 팀원 백경운 - model(puzzle board) 만들기, 발표
+- 팀원 백혜경 - model(puzzle piece) 만들기, 피피티 작성
+- 팀원 이가은 - controller 만들기, 보고서 작성
+- 팀원 최연우 - output 만들기, 보고서 작성
 
 ### 개발환경
 - 'IDE'
