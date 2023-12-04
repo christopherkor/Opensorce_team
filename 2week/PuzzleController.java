@@ -1,5 +1,3 @@
-package slidepuzzle1;
-
 import javax.swing.*;
 
 public class PuzzleController {
