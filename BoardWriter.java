@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
+//output view
 public class BoardWriter extends JPanel {
     private final int SIZE;
     private SlidePuzzleBoard Pb;
