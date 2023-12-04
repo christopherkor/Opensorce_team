@@ -2,15 +2,15 @@ import javax.swing.*;
 import java.awt.*;
 
 //output view
-public class BoardWriter extends JPanel {
+public class PuzzleWriter extends JPanel {
     private final int SIZE;
     private SlidePuzzleBoard Pb;
 
-    public BoardWriter(SlidePuzzleBoard puzzleBoard){
+    public PuzzleWriter(SlidePuzzleBoard puzzleBoard){
         Pb = puzzleBoard;
         SIZE = 300;
         JFrame f = new JFrame();
-        f.setTitle("Slice Puzzle"); //보드 이름정하기
+        f.setTitle("Slide Puzzle"); //보드 이름 정하기
         f.setSize(SIZE,SIZE+22);    //보드 크기 정하기
         f.getContentPane().add(this);
         f.setVisible(true);
