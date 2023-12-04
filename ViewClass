@@ -9,8 +9,8 @@ public class BoardWriter extends JPanel {
         Pb = puzzleBoard;
         SIZE = 300;
         JFrame f = new JFrame();
-        f.setTitle("Slice Puzzle");
-        f.setSize(SIZE,SIZE+22);
+        f.setTitle("Slice Puzzle"); //보드 이름정하기
+        f.setSize(SIZE,SIZE+22);    //보드 크기 정하기
         f.getContentPane().add(this);
         f.setVisible(true);
         f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -21,6 +21,7 @@ public class BoardWriter extends JPanel {
         g.setColor(Color.BLACK);
         int first = 0;
         int second = 0;
+        //for문으로 2차운 배열의 보드 색깔별로 출력하기
         for (int i = SIZE/6; i <= SIZE/6*4; i += SIZE/6) {
             for (int j = SIZE / 6; j <= SIZE / 6 * 4; j += SIZE / 6) {
                 if(Pb.board[first][second]==0){
