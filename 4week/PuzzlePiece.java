@@ -1,5 +1,3 @@
-package _10_SlidePuzzleBoard;
-
 public class PuzzlePiece {
     private int face;
 
